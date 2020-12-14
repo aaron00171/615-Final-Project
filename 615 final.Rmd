@@ -1,0 +1,24 @@
+---
+title: "615 Final Project"
+author: "Jiaheng Li"
+date: "2020/12/13"
+output: pdf_document
+---
+
+## Abstract
+
+The COVID-19 pandemic has had a devastating effect on the economy in the United States. In early March 2020, the first lockdowns began and the stock market plunged. After this initial reaction, however, the market recovered. 
+
+In this project, you will use online investment advice that was available at the beginning of July 2020. to make investment decisions and then track your investments through the fall until 1 December. Many R packages could be used for this project. I demonstrated the tidyquant n class.
+
+There's no lack of opinion about financial markets.
+
+
+## Project Description
+
+The Shiny app I am designing for my project is kind like a multi-function calculator for stock simulation investment. I separately applied Amazon.Inc's stock in my app, becasue I think that in the general environment of the COVID-19, all physical commodity economies have been severely hit, but for online e-commerce, this is a business opportunity. Amazon.Inc which is one of the most outstanding representatives of e-commerce platforms would obtain considerable benefits from this incident. This is also why I choose this company's stock as the analysis object of my app. 
+
+## Function Introduction
+
+On the UI interface of the app, users can freely choose the time to buy or sell stocks within the time range from July to December 2020. When each time the transaction amount is confirmed, users can click the apply button to output their investment results. The investment result will contain the information of the trading date, current portfolio value, current spare cash amount (With a starting capital of 250,000 USD) and the current portfolio profit. At the same time, users can also use the line chart on the right to observe the stock trends before their latest investment date. Also, If the user would like to restart the investment, they can use the clear button the restart the whole process. 
+
